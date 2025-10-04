@@ -1,5 +1,5 @@
-## Description
-Signed Posts allows authors to sign posts, assuring content integrity. Signature verification proves post-signing alteration hasn’t occurred.
+# Signed Posts
+Allows authors to sign posts, assuring content integrity. Signature verification proves post-signing alteration hasn’t occurred.
 
 ## Features:
 
