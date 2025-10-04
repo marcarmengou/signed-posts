@@ -8,13 +8,6 @@ Allows authors to sign posts, assuring content integrity. Signature verification
 * **Status block:** An informative block is automatically added to the end of each signed article, showing the verification status (valid, invalid, or error).
 * **Author badge:** The author name in posts is enhanced with an icon and fingerprint.
 
-## Source Code and Libraries
-OpenPGP.js - The minified library (`openpgp.min.js`) is included locally for client-side OpenPGP verification.
-
-* Version: 6.2.2
-* License: LGPL-3.0-or-later
-* Public Source Code (Non-compiled): [https://github.com/openpgpjs/openpgpjs](https://github.com/openpgpjs/openpgpjs)
-
 ## Frequently Asked Questions
 
 ### How do I get the content of my post to sign it?
@@ -29,12 +22,17 @@ The plugin will display a warning message indicating that the signature doesn't 
 ### Does the plugin affect my site's performance?
 The impact on the server is minimal, as the verification is performed entirely in the visitor's browser. The only additional resource is the download of the public key, which is usually very small.
 
-## Resources
+## Source Code and Libraries
+OpenPGP.js - The minified library (`openpgp.min.js`) is included locally for client-side OpenPGP verification.
 
-WordPress Plugin Repository: [https://wordpress.org/plugins/clear-internal-search-button/](https://wordpress.org/plugins/signed-posts/)
+* Version: 6.2.2
+* License: LGPL-3.0-or-later
+* Public Source Code (Non-compiled): [https://github.com/openpgpjs/openpgpjs](https://github.com/openpgpjs/openpgpjs)
+
+## Resources
+WordPress Plugin Repository: [https://wordpress.org/plugins/signed-posts/](https://wordpress.org/plugins/signed-posts/)
 
 ## Requirements
-
 - WordPress 6.0+
 - PHP 7.0+
 - License: GPLv2 or later
