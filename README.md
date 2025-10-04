@@ -11,17 +11,17 @@ Allows authors to sign posts, assuring content integrity. Signature verification
 ## Source Code and Libraries
 OpenPGP.js - The minified library (`openpgp.min.js`) is included locally for client-side OpenPGP verification.
 
-* **Version:** 6.2.2
-* **License:** LGPL-3.0-or-later
-* **Public Source Code (Non-compiled):** [https://github.com/openpgpjs/openpgpjs](https://github.com/openpgpjs/openpgpjs)
+* Version: 6.2.2
+* License: LGPL-3.0-or-later
+* Public Source Code (Non-compiled): [https://github.com/openpgpjs/openpgpjs](https://github.com/openpgpjs/openpgpjs)
 
 ## Frequently Asked Questions
 
 ### How do I get the content of my post to sign it?
-A: Once you’ve finished your post, click the three dots in the top-right corner of the Gutenberg editor. When the options menu opens, select “Copy all blocks.” That is the content you should sign.
+Once you’ve finished your post, click the three dots in the top-right corner of the Gutenberg editor. When the options menu opens, select “Copy all blocks.” That is the content you should sign.
 
 ### Where can I host my OpenPGP public key?
-A: You can host it on any service that offers direct links and allows CORS (Cross-Origin Resource Sharing) access.
+You can host it on any service that offers direct links and allows CORS (Cross-Origin Resource Sharing) access.
 
 ### What happens if the signature isn't valid?
 The plugin will display a warning message indicating that the signature doesn't match the content or the public key, which can be a sign of content tampering.
