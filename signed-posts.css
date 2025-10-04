@@ -1,0 +1,106 @@
+.pgp-signature-block {
+    border: 1px solid #dcdcdc;
+    border-left: 5px solid #0073aa; /* WordPress accent color */
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.pgp-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.pgp-title {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 1.25em;
+    color: #333;
+    font-weight: 600;
+}
+
+.pgp-icon {
+    font-size: 1.5em;
+    color: #0073aa;
+}
+
+.pgp-details p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.pgp-detail-label {
+    font-weight: 600;
+    color: #555;
+    margin-right: 5px;
+}
+
+.pgp-detail-value {
+    color: #000;
+}
+
+.pgp-status-container {
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pgp-status-pending {
+    color: #555;
+    background-color: #f0f0f0;
+}
+
+.pgp-status-correct {
+    color: #1a711a;
+    background-color: #e6ffe6;
+    border: 1px solid #1a711a;
+}
+
+.pgp-status-incorrect {
+    color: #b31212;
+    background-color: #ffe6e6;
+    border: 1px solid #b31212;
+}
+
+.pgp-status-error {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border: 1px solid #8a6d3b;
+}
+
+.wppgps-author-badge {
+    align-items: center;
+    gap: 1px;
+    margin-left: 1px; /* visual separation from the author element (link or text) */
+}
+
+.wppgps-author-shield {
+    line-height: 1;
+    vertical-align: middle;
+    /* default/pending color */
+    color: #8c8f94;
+}
+
+/* Status colors for shield */
+.wppgps-author-shield--valid { color: #1a711a; }
+.wppgps-author-shield--invalid { color: #b31212; }
+.wppgps-author-shield--error { color: #8a6d3b; }
+
+/* Fingerprint text (hidden until result) */
+.wppgps-author-fp {
+    color: #333;
+    white-space: nowrap;
+}
+
+.wppgps-author-fp .wppgps-author-fp-value {
+    font-weight: 600;
+}
